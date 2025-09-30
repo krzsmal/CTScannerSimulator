@@ -15,6 +15,20 @@ This simulator implements the fundamental principles of computed tomography, inc
 
 <img src="https://img.shields.io/badge/Streamlit-222629?logo=streamlit" height="30"> <img src="https://img.shields.io/badge/Numpy-013243?logo=numpy" height="30"> <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib" height="30"> <img src="https://img.shields.io/badge/scikit image-CE5C00" height="30"> <img src="https://img.shields.io/badge/DICOM-002957" height="30">
 
+## Live Demo
+
+You can try the CT Scanner Simulator online via Streamlit Cloud:  
+https://ctscannersimulator-krzsmal.streamlit.app
+
+> ⚠️ Note: This is hosted on the free Streamlit Cloud plan. If the app has not been used recently, the first launch may take a few seconds to start due to the server waking up.  
+> ⚠️ Note: Some interactive animation features, such as step-by-step visualization of the sinogram generation and image reconstruction, may not work properly on the hosted version. These features are fully functional when running the application locally.
+
+Sample input files are included in the repository under the `example_input/` folder:  
+- **JPEG images** for testing regular images  
+- **DICOM files (.dcm)** for testing medical imaging workflows
+
+You can use these files to quickly try out the CT Scanner Simulator without needing your own data.
+
 ## Features
 
 ### Core Functionality
