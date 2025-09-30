@@ -3,9 +3,9 @@ Configuration constants for CT Scanner Simulator
 """
 
 # Default simulation parameters
-DEFAULT_ANGULAR_STEP = 4.0
-DEFAULT_DETECTOR_COUNT = 180
-DEFAULT_DETECTOR_SPAN = 180
+DEFAULT_ANGULAR_STEP = 1.0
+DEFAULT_DETECTOR_COUNT = 360
+DEFAULT_DETECTOR_SPAN = 270
 
 # Filter parameters
 FILTER_KERNEL_SIZE = 21
